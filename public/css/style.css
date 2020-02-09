@@ -1,0 +1,54 @@
+
+:root {
+    --primary : #1E1E2F;
+    --secondery : #27293D;
+    --common : #29C0B1;
+}
+
+body {
+    background-color: var( --primary);
+    color: white;
+    font-size: 16px;
+}
+
+.sidebar {
+    width: 10%;
+    background: #222437;
+    position: fixed;
+    height: 100%;
+    border-right: 1px solid var(--common);
+}
+
+.content {
+margin-left: 10%;
+   
+}
+
+
+ul.side-navs {
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+li.side-nav-link {
+    display: block;
+}
+
+li.side-nav-link a {
+    display: block;
+    padding: 10px;
+    color: rgb(179, 163, 163);
+}
+
+a:hover {
+ text-decoration: none;
+ color: white !important;
+    background: var(--common);
+}
+
+a.active {
+    color: white !important;
+    background: #29c0b1;
+}
